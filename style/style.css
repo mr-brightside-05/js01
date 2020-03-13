@@ -1,0 +1,127 @@
+h2{
+    background: #ffffff;
+    border: 2px #000000 solid;
+    border-radius: 5px;
+
+}
+.countholder{
+    display: flex;
+}
+.sirelcount{
+    width: 400px;
+    height: 600px;
+    border: 2px #000000 solid;
+    background: url(../img/images.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+.wahacaunt{
+    width: 400px;
+    height: 600px;
+    border: 2px #000000 solid;
+    background: url(../img/warhammer.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.bookcount{
+    width: 400px;
+    height: 600px;
+    border: 2px #000000 solid;
+    background: url(../img/boolimg.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;    
+}
+.carsort{
+    width: 400px;
+    height: 600px;
+    border: 2px #000000 solid;
+    background: url(img/boolimg.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;    
+}
+#outputsirial{
+    border: 2px #000000 solid;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.btn{
+    color: #fff;
+    background: #ff0000;
+    width: 150px;
+    height: 150px;
+    border: 2px #000000 solid;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#check{    color: #fff;
+    background: #ff0000;
+    width: 100px;
+    height: 50px;
+    border: 2px #000000 solid;
+    margin-bottom: 10px;
+}
+
+#wahabtn{
+    background: #00f;
+}
+#bookbtn{
+    background: #0f0;
+}
+
+
+.userid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 300px;
+    border: 2px #000000 solid;
+    background: rgb(75, 133, 199);  
+    position: relative;
+    padding: 50px 0;
+}
+
+#greenalert{ 
+    width: 100px;
+    height: 100px;
+    border: 10px rgb(113, 113, 114) solid;
+    border-radius: 50px;
+    background: #0f0;
+    display: none;
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    }
+#radalert{
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    border: 10px rgb(113, 113, 114) solid;
+    border-radius: 50px;
+    display: none;
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+}
